@@ -1,4 +1,17 @@
+let player=["X","O"];
+let game= false;
+let turn= 0;
+let currentPlayer= "O";
 
+
+function perfromLogic(buttonId, titleId){
+    if(currentPlayer==="X"){
+        currentPlayer==="O";
+    }
+    else if (currentPlayer==="O"){
+        currentPlayer==="X";
+    }
+}
 
 
 
